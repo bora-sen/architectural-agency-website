@@ -5,10 +5,10 @@ import { RoomModel } from "./Components"
 function ThreeDBackground({ children }) {
   return (
     <main className="w-full h-auto relative">
-      <section className="w-full h-screen bg-gray-300 -z-10 fixed top-0">
-        <Canvas>
+      <section id="section_background" className="w-full h-screen bg-white -z-10 fixed top-0">
+        <Canvas camera={{ fov: 60 }}>
           <Suspense fallback={null}>
-            <ambientLight />
+            <ambientLight intensity={1.2} />
             <RoomModel />
           </Suspense>
         </Canvas>
