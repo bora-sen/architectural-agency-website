@@ -1,17 +1,22 @@
 {
+  "homepage": "https://bora-sen.github.io/",
   "name": "architectural-agency-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@react-three/drei": "^9.65.3",
     "@react-three/fiber": "^8.12.1",
     "autoprefixer": "^10.4.14",
+    "gh-pages": "^5.0.0",
+    "gsap": "^3.11.5",
     "postcss": "^8.4.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
