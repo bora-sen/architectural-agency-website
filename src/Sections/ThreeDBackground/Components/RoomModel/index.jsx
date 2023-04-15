@@ -1,15 +1,11 @@
-import React, { useLayoutEffect } from "react"
-
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader"
-import { useLoader } from "@react-three/fiber"
-import roomModelFile from "./model.glb"
+import React, { useContext, useLayoutEffect } from "react"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { LoadingContext } from "../../../../Context/LoadingContext"
 gsap.registerPlugin(ScrollTrigger)
 
 function RoomModel() {
-  const scene = useLoader(GLTFLoader, roomModelFile)
-  const roomModel = scene.scenes[0] ?? false
+  const { roomModel } = useContext(LoadingContext)
 
   const roomLocations = {
     heroPos: {
@@ -211,10 +207,7 @@ function RoomModel() {
     )
   }, [])
 
-  if (!roomModel) return null
-  else {
-    return <primitive object={roomModel} />
-  }
+  return <primitive object={roomModel} />
 }
 
 export default RoomModel
