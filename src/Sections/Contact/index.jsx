@@ -3,7 +3,7 @@ import React from "react"
 function Contact() {
   return (
     <section id="section_contact" className="w-full h-screen">
-      <div className="w-[37rem] h-full bg-slate-200 ml-[10rem] flex items-center justify-center text-black">
+      <div className="w-full lg:bg-slate-200 lg:bg-opacity-40 lg:w-[37rem] h-full backdrop-blur-sm lg:ml-[10rem] flex items-center justify-center text-black">
         <div className="">
           <h5 className="text-8xl font-display">Contact Us</h5>
           <form>

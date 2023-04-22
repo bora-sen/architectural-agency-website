@@ -19,7 +19,10 @@ export default function LoadingProvider({ children }) {
         setIsLoading(false)
       },
       (progress) => {
-        console.log(progress)
+        //console.log(progress)
+        if (progress < 100) {
+          setIsLoading(true)
+        }
       }
     )
   }
