@@ -16,7 +16,7 @@ function Works() {
         </a>
         <a href="#">
           <div>
-            <img className="aspect-video" src="https://images.adsttc.com/media/images/5de9/3010/3312/fd9f/fd00/04a7/newsletter/Lv_Lin.jpg?1575563274" alt="" />
+            <img className="aspect-video" src="https://images.adsttc.com/media/images/5de9/3010/3312/fd9f/fd00/04a7/newsletter/Lv_Lin.jpg" alt="" />
             <h6 className="md:text-4xl font-bold">Work 2</h6>
             <p className="text-xs md:text-base lg:text-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio odio et autem incidunt officiis harum ipsam consequatur rerum.
@@ -26,11 +26,7 @@ function Works() {
 
         <a href="#">
           <div>
-            <img
-              className="aspect-video"
-              src="https://hommes.studio/wp-content/uploads/10-Best-Modern-Architecture-Projects-That-You-Need-To-Know-14.jpg"
-              alt=""
-            />
+            <img className="aspect-video" src="https://worldlandscapearchitect.com/wp-content/uploads/2019/07/TH050619_Safdie_Jewel_0862-768x577.jpg" alt="" />
             <h6 className="md:text-4xl font-bold">Work 3</h6>
             <p className="text-xs md:text-base lg:text-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio odio et autem incidunt officiis harum ipsam consequatur rerum.
