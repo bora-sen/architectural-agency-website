@@ -1,7 +1,12 @@
 import React from "react"
+import s from "./loading.module.css"
 
 function Loading() {
-  return <div className="text-black text-6xl font-display z-80 w-full h-screen flex items-center justify-center">Loading...</div>
+  return (
+    <div className="w-full h-screen flex items-center justify-center">
+      <div className={s.loader}></div>
+    </div>
+  )
 }
 
 export default Loading
