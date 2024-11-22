@@ -6,6 +6,7 @@ I created this project as a learning experience to deepen my understanding of re
 
 - [Installation](#installation)
 - [Technologies Used](#technologies-used)
+- [Todos](#Todos)
 - [Features](#features)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
@@ -40,6 +41,9 @@ Instructions on how to set up and install the project locally:
 - **Three.js** : 3D model rendering library
 - **GSAP** / **GSAP/ScrollTrigger** / **Animate.css** : Smooth & engaging 3D animations
 - **Tailwind.css** : Styling and responsive design
+
+## Todos
+- [ ] Optimize the model loading time
 
 ## Features
 
